@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*id chi duoc xuat hien1 lan trong html*/
+        
+        .box-left {
+            width: 30%;
+            background: rgb(252, 234, 234);
+            float: left;
+            height: auto;
+        }
+        
+        .box-right {
+            width: 70%;
+            background: rgba(213, 243, 248, 0.856);
+            float: right;
+            height: auto;
+        }
+        
+        .box-avatar {
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .avatar {
+            border-radius: 50%;
+            height: 250px;
+            width: 250px;
+            object-fit: cover;
+            /* tu chinh anh
+            /* contain: hien thi toan bo ND*/
+            /* border khai bao vien, loai nao */
+            border: 3px rgb(105, 105, 253) solid;
+            padding: 5px;
+        }
+        
+        .item {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 3px rgb(192, 195, 241) solid;
+            /* object-fit: cover; */
+            margin-left: 30px;
+        }
+        
+        .title {
+            color: cornflowerblue;
+            text-align: center;
+            margin-bottom: -30px;
+        }
+        
+        .box-item-left-content {
+            text-align: justify;
+            word-wrap: break-word;
+            margin-left: 70px;
+            margin-right: 70px;
+        }
+        
+        .box-content-right {
+            padding-left: 20px;
+        }
+        
+        .item-contact {
+            height: 20px;
+            width: 20px;
+            object-fit: cover;
+        }
+        
+        .title-right {
+            text-align: right;
+            margin-right: 60px;
+            margin-bottom: -30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-left">
+        <div class="box-avatar">
+            <img class="avatar" src="https://www.petcity.vn/media/news/728_shironeko14_1413790409_680x0.jpg" alt="Avatar">
+        </div>
+        <div class="box-item-left">
+            <div class="title">
+                <h2>MỤC TIÊU NGHỀ NGHIỆP</h2>
+            </div>
+            <img class="item" src="https://i.imgur.com/7RIhVK6.png" alt="">
+            <hr style="width: 65%;border-top:3px rgb(192, 195, 241) solid;margin-top: -25px;">
+            <div class="box-item-left-content">
+                <p>Mong muốn được làm việc tại Nhật Bản</p>
+            </div>
+
+            <div class="title">
+                <h2>KỸ NĂNG</h2>
+            </div>
+            <img class="item" src="https://i.imgur.com/7RIhVK6.png" alt="">
+            <hr style="width: 65%;border-top:3px rgb(192, 195, 241) solid;margin-top: -25px;">
+            <div class="box-item-left-content">
+                <ul>
+                    <li>Kỹ năng làm việc nhóm.</li>
+                    <li>Decor đồ ăn/ uống.</li>
+                    <li>Chủ động, quyết đoán, sáng tạo.</li>
+                    <li>Khả năng ghi nhớ và vận dụng.</li>
+                    <li>Có khả năng lập kế hoạch hiệu quả.</li>
+                </ul>
+            </div>
+
+            <div class="title">
+                <h2>ƯU ĐIỂM - KHUYẾT ĐIỂM</h2>
+            </div>
+            <img class="item" src="https://i.imgur.com/7RIhVK6.png" alt="">
+            <hr style="width: 65%;border-top:3px rgb(192, 195, 241) solid;margin-top: -25px;">
+            <div class="box-item-left-content">
+                <div style="width:55%; float: left;">
+                    <p>Ưu điểm: </p>
+                    <ul>
+                        <li>Không ngại khó.</li>
+                        <li>Nhiệt tình.</li>
+                        <li>Nhanh nhẹn.</li>
+                        <li>Trách nhiệm.</li>
+                        <li>Luôn sáng tạo.</li>
+                    </ul>
+                </div>
+                <div style="width:40%; float: right;">
+                    <p>Khuyết điểm: </p>
+                    <ul>
+                        <li>Ngại giao tiếp.</li>
+                        <li>Ít nói.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="box-right">
+        <div class="box-content-right">
+            <h1 style="color: rgb(36, 22, 119);">Hà Nguyễn</h1>
+            <h3 style="margin-top: -20px">Sinh viên</h3>
+
+            <img class="item-contact" src="https://cdn3.iconfinder.com/data/icons/catcommerce-black/120/phone-512.png" alt="">
+            <p style="margin-top: -25px; margin-left: 70px;"><i>0974291655</i></p>
+            <img style="margin-top: -12px;" class="item-contact" src="https://cdn3.iconfinder.com/data/icons/catcommerce-black/120/mail-512.png" alt="">
+            <p style="margin-top: -25px; margin-left: 70px;"><i>nguyenthanhha041999@gmail.com</i></p>
+            <img style="margin-top: -12px;" class="item-contact" src="https://icon-library.com/images/dog-house-icon/dog-house-icon-20.jpg" alt="">
+            <p style="margin-top: -25px; margin-left: 70px;"><i>Hải Bối, Đông Anh, Hà Nội</i></p>
+
+            <!-- note -->
+            <div class="title-right">
+                <h2 style="color: rgb(36, 22, 119);">KỸ NĂNG</h2>
+            </div>
+            <img style="margin-left: 0px;" class="item" src="https://stickershop.line-scdn.net/stickershop/v1/product/8574314/LINEStorePC/main.png;compress=true" alt="">
+            <hr style="width: 100%;border-top:3px rgb(192, 195, 241) solid;margin-top: -25px; margin-left: 45px;">
+            <ul style="margin-top: 20px;">
+                <li style="color: rgb(104, 100, 100);">2014 - 2017</li>
+                <p style="margin-top: -18px;margin-left: 130px;">Học sinh trường THPT Cổ Loa</p>
+                <li style="color: rgb(104, 100, 100);">2017 - 2022</li>
+                <p style="margin-top: -18px;margin-left: 130px;">Sinh viên trường Đại học Bách Khoa Hà Nội</p>
+            </ul>
+
+            <div class="title-right">
+                <h2 style="color: rgb(36, 22, 119);">KINH NGHIỆM</h2>
+            </div>
+            <img style="margin-left: 0px;" class="item" src="https://stickershop.line-scdn.net/stickershop/v1/product/8574314/LINEStorePC/main.png;compress=true" alt="">
+            <hr style="width: 100%;border-top:3px rgb(192, 195, 241) solid;margin-top: -25px; margin-left: 45px;">
+            <ul>
+                <li style="color: rgb(104, 100, 100);">9/2017 - 5/2018</li>
+                <p style="margin-left: 130px;">Sinh viên năm nhất</p>
+                <ul style="margin-left: 130px;">
+                    <li style="list-style-type: '-  '"><i>Toán đại cương</i></li>
+                    <li style="list-style-type: '-  '"><i>Vật lý đại cương</i></li>
+                    <li style="list-style-type: '-  '"><i>C Introducion</i></li>
+                    <li style="list-style-type: '-  '"><i>Nhập môn CNTT</i></li>
+                </ul>
+            </ul>
+            <ul>
+                <li style="color: rgb(104, 100, 100);">9/2018 - 5/2019</li>
+                <p style="margin-left: 130px;">Sinh viên năm hai</p>
+                <ul style="margin-left: 130px;">
+                    <li style="list-style-type: '-  '"><i>C Basic</i></li>
+                    <li style="list-style-type: '-  '"><i>C Advanced</i></li>
+                    <li style="list-style-type: '-  '"><i>Thể chất</i></li>
+                    <li style="list-style-type: '-  '"><i>Kĩ thuật điện tử</i></li>
+                </ul>
+            </ul>
+            <ul>
+                <li style="color: rgb(104, 100, 100);">9/2019 - 5/2020</li>
+                <p style="margin-left: 130px;">Sinh viên năm ba</p>
+                <ul style="margin-left: 130px;">
+                    <li style="list-style-type: '-  '"><i>Hướng đối tượng</i></li>
+                    <li style="list-style-type: '-  '"><i>Cơ sở dữ liệu</i></li>
+                    <li style="list-style-type: '-  '"><i>Chương trình dịch</i></li>
+                    <li style="list-style-type: '-  '"><i>Kĩ thuật máy tính</i></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
